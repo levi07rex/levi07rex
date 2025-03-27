@@ -1,0 +1,131 @@
+- 👋 Hi, I’m @levi07rex
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+
+<!---
+levi07rex/levi07rex is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ontecheletricmga</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+            margin: 0;
+        }
+        header {
+            background-color: yellow;
+            text-align: center;
+            padding: 20px;
+            font-size: 36px;
+            box-shadow: 0 4px 2px -2px gray;
+        }
+        header h1 {
+            color: black;
+            text-shadow: 2px 2px 4px #000000;
+        }
+        nav {
+            background-color: black;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: yellow;
+            font-size: 20px;
+            text-decoration: none;
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #222;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
+        }
+        nav a:hover {
+            background-color: yellow;
+            color: black;
+        }
+        .menu-button {
+            display: inline-block;
+            width: 100px;
+            height: 50px;
+            background-color: #333;
+            border-radius: 25px;
+            position: relative;
+            box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
+        }
+        .menu-button:before {
+            content: '';
+            position: absolute;
+            width: 45px;
+            height: 45px;
+            background-color: yellow;
+            border-radius: 50%;
+            top: 50%;
+            left: 5px;
+            transform: translateY(-50%);
+            transition: left 0.3s;
+        }
+        .menu-button.on:before {
+            left: 50px;
+        }
+        .content {
+            padding: 20px;
+        }
+        footer {
+            background-color: yellow;
+            color: black;
+            text-align: center;
+            padding: 10px;
+            font-size: 18px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .payment-methods img {
+            width: 50px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ontecheletricmga</h1>
+</header>
+
+<nav>
+    <a href="#casa" class="menu-button">Casa</a>
+    <a href="#comercio" class="menu-button">Comércio</a>
+    <a href="#industria" class="menu-button">Indústria</a>
+    <a href="#automacao" class="menu-button">Automação</a>
+</nav>
+
+<div class="content">
+    <h2>Bem-vindo à Ontecheletricmga</h2>
+    <p>Oferecemos os melhores materiais elétricos para sua casa, comércio, indústria e automação.</p>
+    <p><strong>Contato:</strong> <a href="https://wa.me/5544991022121" target="_blank">WhatsApp: 44 99102-2121</a></p>
+
+    <h3>Formas de Pagamento:</h3>
+    <div class="payment-methods">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Logo_Pix.png" alt="Pix">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Logo_Boleto.png" alt="Boleto Bancário">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Visa_Logo_2023.png" alt="Cartão de Crédito">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/85/MasterCard-logo.png" alt="MasterCard">
+    </div>
+</div>
+
+<footer>
+    <p>Entrega para todo o Brasil via Sedex!</p>
+</footer>
+
+</body>
+</html>
